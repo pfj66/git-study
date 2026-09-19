@@ -1,0 +1,7 @@
+cp hello.py hello_backup.py # 复制文件
+cp -r notes notes_backup # 复制文件夹
+mv hello.py main.py # 重命名文件
+mv main.py src/ # 将文件移动到 src 文件夹
+rm -i hello_backup.py # 删除文件，删除前询问
+rmdir notes # 删除空文件夹
+rm -ri notes_backup # 递归删除文件夹，逐项询问
