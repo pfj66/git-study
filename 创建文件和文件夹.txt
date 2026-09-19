@@ -1,0 +1,5 @@
+touch hello.py # 文件不存在时，创建空文件
+mkdir notes # 创建文件夹
+mkdir -p src/utils # 创建多层文件夹
+printf 'print("你好！")\n' > hello.py # 写入内容，覆盖原内容
+printf '# 学习笔记\n' >> hello.py # 在文件末尾追加内容
