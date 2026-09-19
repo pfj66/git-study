@@ -1,0 +1,6 @@
+cat hello.py # 显示整个文件
+less hello.py # 分页查看，按 q 退出
+head -n 10 hello.py # 查看前 10 行
+tail -n 10 hello.py # 查看后 10 行
+grep -n "print" hello.py # 查找包含 print 的行，显示行号
+find . -name "*.py" # 在当前目录及子目录查找 Python 文件
